@@ -1,4 +1,4 @@
-# FilmLog
+# FilmTrace
 
 > 胶片摄影参数记录 App · 快速、方便地记录每次快门的参数与胶卷状态
 
@@ -9,9 +9,11 @@
 
 ## ⬇️ 下载
 
-**👉 [点击下载最新 APK](https://github.com/NixumbraSolivagant/FilmLog/releases/latest/download/FilmLog-v0.1.0-debug.apk)**
+**👉 [点击下载最新 APK](https://github.com/NixumbraSolivagant/FilmLog/releases/latest/download/FilmTrace-v0.1.1-debug.apk)**
 
 调试签名的 APK，27 MB。下载后在 Android 设备上启用「未知来源安装」即可。
+
+> 应用包名：`com.filmtrace` · 与旧版 `com.filmlog` 数据互不兼容，请先卸载旧版再安装。
 
 ## ✨ 功能
 
@@ -19,7 +21,14 @@
 - **库存批量入库** — 选预设（Kodak Portra 400 / Ilford HP5+ / Fujifilm Pro 400H 等 7 种），一次性入库多卷
 - **拍摄记录** — 每张快门记一次：快门 / 光圈 / 焦段 / ISO / 备注
 - **参数预设** — 保存常用相机参数组合，新建拍摄记录时一键调用
+- **关于页** — 顶部右上角 `ⓘ` 入口，显示作者署名与版本
 - **复古胶片主题** — 暖色调暗色 UI，配合胶片摄影的视觉气质
+
+## 👤 署名
+
+**NixumbraSolivagant · 雪隐之村**
+
+App 内 `拍摄 / 胶卷 / 历史` 页右上角 `ⓘ` 按钮进入「关于」页可查看完整署名。
 
 ## 🛠 技术栈
 
@@ -36,7 +45,7 @@
 ## 📦 项目结构
 
 ```
-app/src/main/java/com/filmlog/
+app/src/main/java/com/filmtrace/
 ├── data/
 │   ├── local/         # Room: Database, DAO, Entity, Mappers
 │   └── repository/    # Repository 实现
@@ -49,7 +58,7 @@ app/src/main/java/com/filmlog/
 │   ├── navigation/    # NavHost + 路由
 │   ├── screens/       # 各业务页面
 │   └── theme/         # 颜色 / 字体 / 主题
-├── FilmLogApp.kt      # @HiltAndroidApp
+├── FilmTraceApp.kt    # @HiltAndroidApp
 └── MainActivity.kt    # Compose 入口
 ```
 
