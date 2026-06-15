@@ -1,0 +1,27 @@
+# Gradle
+.gradle/
+build/
+**/build/
+
+# Local config
+local.properties
+*.iml
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Captures (Android Profiler)
+captures/
+
+# Keystore (never commit signing material)
+*.jks
+*.keystore
+
+# Generated APKs are released via GitHub Releases, not committed.
+# If you want to commit APKs anyway, remove the following line:
+app/build/outputs/
