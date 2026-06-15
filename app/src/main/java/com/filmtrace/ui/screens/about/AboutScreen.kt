@@ -30,7 +30,7 @@ import com.filmtrace.BuildConfig
 import com.filmtrace.ui.theme.WarmAmber
 import com.filmtrace.ui.theme.WarmAmberDim
 
-private const val GITHUB_URL = "https://github.com/NixumbraSolivagant/FilmLog"
+private const val GITHUB_URL = "https://github.com/NixumbraSolivagant/FilmTrace"
 private const val AUTHOR_HANDLE = "NixumbraSolivagant"
 private const val AUTHOR_NAME_CN = "雪隐之村"
 private const val AUTHOR_FULL = "$AUTHOR_HANDLE · $AUTHOR_NAME_CN"
@@ -139,7 +139,7 @@ fun AboutScreen(
             InfoRow(
                 icon = Icons.Default.Code,
                 label = "开源",
-                value = "github.com/NixumbraSolivagant/FilmLog",
+                value = "github.com/NixumbraSolivagant/FilmTrace",
                 onClick = {
                     runCatching {
                         context.startActivity(

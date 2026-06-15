@@ -2,14 +2,14 @@
 
 > 胶片摄影参数记录 App · 快速、方便地记录每次快门的参数与胶卷状态
 
-[![Release](https://img.shields.io/github/v/release/NixumbraSolivagant/FilmLog)](https://github.com/NixumbraSolivagant/FilmLog/releases/latest)
+[![Release](https://img.shields.io/github/v/release/NixumbraSolivagant/FilmTrace)](https://github.com/NixumbraSolivagant/FilmTrace/releases/latest)
 [![Platform](https://img.shields.io/badge/platform-Android-3DDC84)](https://developer.android.com)
 [![Language](https://img.shields.io/badge/Kotlin-1.9-7F52FF)](https://kotlinlang.org)
 [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 
 ## ⬇️ 下载
 
-**👉 [点击下载最新 APK](https://github.com/NixumbraSolivagant/FilmLog/releases/latest/download/FilmTrace-v0.1.1-debug.apk)**
+**👉 [点击下载最新 APK](https://github.com/NixumbraSolivagant/FilmTrace/releases/latest/download/FilmTrace-v0.1.1-debug.apk)**
 
 调试签名的 APK，27 MB。下载后在 Android 设备上启用「未知来源安装」即可。
 
